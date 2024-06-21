@@ -212,7 +212,8 @@ section .main_btn button:hover span{
 }
 
 section .media{
-    position: relative;
+    margin-top: 10%;
+    position: fixed;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
