@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+:hover{
+    transition: 0.2s;
+}
 body{
     background: url(images/bg.jpg) no-repeat;
     height: 100vh;
@@ -227,6 +230,7 @@ section .media{
 }
 
 section .media i:hover{ 
+    transition: 0.2s;
     color: orange;
 }
 
@@ -822,12 +826,26 @@ section .media i:hover{
     font-size: 18px;
     font-style: bold;
 }
-
+.order .order_main #sel-btn{
+    height: 35px;
+    width: 300px;
+    background: #eeeeee;
+    border: 2px solid #cccccc;
+    font-family: Mooli;
+    font-size: 16px;
+    padding: 0 10px;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+}
+.order .order_main #sel-btn:hover{
+    border: 2px solid orange;
+}
 .order .order_main form .input{
     margin: 7px;
 }
 
-.order .order_main form .input input{
+.order .order_main form .input input,#txt-area{
     width: 300px;
     height: 35px;
     padding: 0 10px;
@@ -837,15 +855,15 @@ section .media i:hover{
     border-radius: 3px;
 }
 
-.order .order_main form .input input:hover{
+.order .order_main form .input input:hover,#txt-area:hover{
     border: 2px solid orange;
 }
 
 .order .order_main form #submit{
     position: relative;
     width: 130px;
-    padding: 9px 25px;
-    right: -10px;
+    padding: 10px 25px;
+    right: -250px;
     bottom: -10px;
     overflow: hidden;
     border-radius: 50px;
@@ -862,7 +880,7 @@ section .media i:hover{
     background-color: orange;
     color: white;
     transition: 0.3s;
-    overflow: hidden;   
+    cursor: pointer;  
 }
 
 .order .order_main form .button .order_btn{
@@ -963,7 +981,7 @@ footer .me span{
 }
 
 ::-webkit-scrollbar{
-    width: 13px;
+    width: 8px;
 }
 ::-webkit-scrollbar-track{
    border-radius: 15px;
@@ -972,13 +990,11 @@ footer .me span{
 
 ::-webkit-scrollbar-thumb{
    background: orange;
-   border-radius: 15px;
+   border-radius: 10px;
 }
-/*
+
 @media screen and (max-width: 2000px) {
   body{
        background-color: red;
    }
-   section .about
 }
- */
