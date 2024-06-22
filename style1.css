@@ -197,8 +197,8 @@ footer .me span{
    background: orange;
    border-radius: 10px;
 }
-/* @media screen and (max-width: 720px) {
+@media screen and (max-width: 720px) {
     body{
          background-color: red;
     }
-} */
+}
