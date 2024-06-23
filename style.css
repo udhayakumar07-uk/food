@@ -993,8 +993,8 @@ footer .me span{
    border-radius: 10px;
 }
 
-@media screen and (max-width: 2000px) {
+/* @media screen and (max-width: 2000px) {
   body{
        background-color: red;
    }
-}
+} */
